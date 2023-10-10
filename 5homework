@@ -1,0 +1,21 @@
+<?php
+$number1 = 10;
+$number2 = 5;
+
+$sum = $number1 + $number2;
+$difference = $number1 - $number2;
+$product = $number1 * $number2;
+
+if ($number1 > 0 && $number2 > 0){
+    echo "Оба числа положительные \n";
+}
+if($number2 == 0){
+    echo "Деление на 0 невозможно \n";
+}else{
+    $quotient = $number1/$number2;
+    echo "Сумма: $sum\n";
+    echo "Разность: $difference\n";
+    echo "Произведение: $product\n";
+    echo "Частное: $quotient\n";
+}
+?>
